@@ -1,0 +1,13 @@
+.container{
+    width: 100%;
+    padding: 25px 0;
+    display: flex;
+    justify-content: center;
+    border-top: #cecece 1px solid;
+}
+
+.copyright{
+    color: #444444;
+    font-size: 15px;
+    font-weight: 500;
+}

@@ -1,0 +1,40 @@
+.header{
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    gap: 60px;
+    padding: 40px 0;
+}
+
+.container{
+    display: flex;
+    flex-flow: column;
+    gap: 40px;
+}
+
+.pagination{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.paginate{
+    display: flex;
+    flex-flow: row;
+    gap: 20px;
+    align-items: center;
+}
+
+.paginate a{
+    font-size: 16px;
+    padding: 5px 6px;
+    color: #222222;
+    font-weight: 600;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.activeBtn a{
+    background-color: #222222;
+    color: #ffffff;
+}
