@@ -30,7 +30,7 @@ const Header = ({posts}) => {
             {/* {postItems.slice(pagesVisited, pagesVisited + postsPerPage).map((postItem)=>(
                 <PostCard posts={posts} key={postItem.title} postItem={postItem} />
             ))} */}
-            {posts.slice(pagesVisited, postsPerPage + pagesVisited).map((post)=>( <PostCard post={post.node} /> ))}
+            {posts.slice(pagesVisited, postsPerPage + pagesVisited).map((post)=>( <PostCard key={post.node.slug} post={post.node} /> ))}
         </div>
                 
         <div className={styles.pagination}>
